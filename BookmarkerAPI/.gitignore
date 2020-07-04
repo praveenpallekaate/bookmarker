@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/URLCatalogue.API/Properties/PublishProfiles
+/URLCatalogue.API/URLCatalogue.API.csproj.user
+/URLCatalogue.API/bin/Debug/netcoreapp2.2
+/URLCatalogue.API/obj
+/URLCatalogue.API/app.log
