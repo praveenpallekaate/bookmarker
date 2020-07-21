@@ -243,7 +243,7 @@ class AppContent extends Component {
           {
             processedTiles.length > 0
             ? (
-                <Row justify="space-between" gutter={[24,16]}>
+                <Row justify="space-between" gutter={[16,16]}>
                 {
                   processedTiles.map((item, index) => {
                     if(item.isActive){

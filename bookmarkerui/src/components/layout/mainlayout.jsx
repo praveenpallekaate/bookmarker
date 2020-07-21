@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout} from 'antd';
+import {Layout, BackTop} from 'antd';
 import AppHeader from './header.jsx';
 import AppContent from './content.jsx';
 import './mainlayout.less';
@@ -16,6 +16,7 @@ function MainLayout() {
         <AppContent/>
       </Content>
       <Footer>© SNC-Lavalin {new Date().getFullYear()}</Footer>
+      <BackTop />
     </Layout>  
   );
 }

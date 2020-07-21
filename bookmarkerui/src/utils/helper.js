@@ -182,6 +182,16 @@ const urlFixer = (url) => {
   return result
 }
 
+const capitalizeFirstChar = (val) => {
+  let result = val;
+
+  if(val){
+    result = val.charAt(0).toUpperCase() + val.slice(1);
+  }
+
+  return result;
+}
+
 export default{
   isSuccess,
   normalise,
@@ -201,5 +211,6 @@ export default{
   lookupFilteredByType,
   getConstantForValue,
   getRandomNumber,
-  urlFixer
+  urlFixer,
+  capitalizeFirstChar
 };

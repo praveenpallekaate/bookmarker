@@ -30,12 +30,12 @@ function Tile(props) {
           target="_blank"
         >
         <Tooltip 
-          title={props.data.name + ' - ' + props.data.details}
+          title={Helper.capitalizeFirstChar(props.data.name) + ' - ' + Helper.capitalizeFirstChar(props.data.details)}
           mouseEnterDelay={1}
         >
           <Meta
             title={Helper.getPascalCaseString(Helper.wrapLongTextWithDots(props.data.name, 27))}
-            description={Helper.getPascalCaseString(Helper.wrapLongTextWithDots(props.data.details, 160))}
+            description={Helper.capitalizeFirstChar(Helper.wrapLongTextWithDots(props.data.details, 160))}
           />
         </Tooltip>          
 
